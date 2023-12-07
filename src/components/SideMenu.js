@@ -4,28 +4,33 @@ import SideMenuSubcomponent from './SideMenuSubcomponent';
 import { Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 const details={
-   title:"Details Collections",
-   content:"collect details"
+  title:"Details Collections",
+  content:"Collect information from Candidates on their education, work experience, contact no,etc"
 }
 const documents={
-  title:"Documents Collections",
-  content:"collect documents"
+ title:"Documents Collections",
+ content:"Collect information from Candidates on their education, work experience, contact no,etc"
 }
 const purpose={
-  title:"Statement of Purpose",
-  content:""
+ title:"Statement of Purpose",
+ content:"Start creating a new form with the wide options of fields available"
+
 }
 const interview={
-  title:"Interview Availability",
-  content:""
+ title:"Interview Availability",
+ content:"Start creating a new form with the wide options of fields available"
+}
+const newForm={
+  title:"New Form",
+  content:"Start creating a new form with the wide options of fields available"
 }
 const SideMenu = () => {
   return (
     <div className='sidemenu'>
-      <SideMenuSubcomponent />
+      <SideMenuSubcomponent details={newForm} />
       <Typography style={{marginLeft:"50px"}}>Explore differnt sections</Typography>
       <div>
-      <Link to="/form" >
+      <Link to="/" >
         <SideMenuSubcomponent details={details} />
         </Link>
         <Link to="/documents" >
@@ -35,9 +40,8 @@ const SideMenu = () => {
         <SideMenuSubcomponent  details={interview}/>
         </Link>
         <Link to="/purpose" >
-        <SideMenuSubcomponent  details={purpose} />
+        <SideMenuSubcomponent  details={purpose}/>
         </Link>
-
       </div>
     </div>
   )

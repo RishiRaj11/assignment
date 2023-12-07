@@ -1,7 +1,10 @@
 .form_container{
 width: 718px;
 height: 1111px;
-margin-top: 76px;
+margin-top: 60px;
 margin-left: 90px;
-
 }
+.home{
+    width: 903px;  
+    background-color:rgba(245, 245, 245, 1);
+    }

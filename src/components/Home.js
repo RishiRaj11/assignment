@@ -4,7 +4,7 @@ import FormContainer from './FormContainer';
 const Home = () => {
   return (
     <div className='home'>
-     <FormContainer />
+     Home
     </div>
   )
 }

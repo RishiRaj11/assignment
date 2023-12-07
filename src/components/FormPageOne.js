@@ -6,10 +6,10 @@ const FormPageOne = () => {
       <div style={{ margin: "0px" }}>
         <form>
           {" "}
-          <div style={{ margin: "7px" }}>
+          <div style={{ margin: "20px" }}>
             <div style={{ margin: "7px" }}>
               <label>1.Name*</label><br />
-              <input style={{ width: "80%", padding: "10px" }}
+              <input style={{ width: "80%", padding: "5px" }}
                 placeholder="Enter Your Name"
                 onChange={(e) => { }}
               />
@@ -19,7 +19,7 @@ const FormPageOne = () => {
                 2.Email*</label><br />
               <input
                 placeholder="Email"
-                style={{ width: "80%", padding: "10px" }}
+                style={{ width: "80%", padding: "5px" }}
                 onChange={(e) => { }}
               />
             </div>
@@ -28,7 +28,7 @@ const FormPageOne = () => {
               <input
                 type="date"
                 placeholder="Enter BirthDate"
-                style={{ width: "80%", padding: "10px" }}
+                style={{ width: "80%", padding: "5px" }}
                 onChange={(e) => { }}
                 name="birthdate"
               />
@@ -39,7 +39,7 @@ const FormPageOne = () => {
               </label><br />
               <input
                 placeholder="Enter Your 10 Digit Number"
-                style={{ width: "80%", padding: "10px" }}
+                style={{ width: "80%", padding: "5px" }}
                 onChange={(e) => { }}
               />
             </div>

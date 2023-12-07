@@ -57,7 +57,7 @@ const FormPageFouth = () => {
                 <br></br>
                 <label>
                     Time Zone:   <br></br>
-                    <select value={timeZone} onChange={(e) => setTimeZone(e.target.value) }   style={{ width: "50%", padding: "5px" }} required>
+                    <select value={timeZone} onChange={(e) => setTimeZone(e.target.value) }   style={{ width: "52%", padding: "5px" }} required>
                         <option value="">Select Time Zone</option>
                         <option value="Time Zone 1">Time Zone 1</option>
                         <option value="Time Zone 2">Time Zone 2</option>
@@ -68,7 +68,7 @@ const FormPageFouth = () => {
                 <br></br>
                 <label>
                     Interview Medium:   <br></br>
-                    <select  style={{ width: "50%", padding: "5px" }} value={interviewMedium} onChange={(e) => setInterviewMedium(e.target.value)} required>
+                    <select  style={{ width: "52%", padding: "5px" }} value={interviewMedium} onChange={(e) => setInterviewMedium(e.target.value)} required>
                         <option value="">Select Interview Medium</option>
                         <option value="In-person">In-person</option>
                         <option value="Phone call">Phone call</option>

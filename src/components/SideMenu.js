@@ -36,12 +36,13 @@ const SideMenu = () => {
         <Link to="/documents" >
         <SideMenuSubcomponent  details={documents} />
         </Link>
-        <Link to="/interview" >
-        <SideMenuSubcomponent  details={interview}/>
-        </Link>
         <Link to="/purpose" >
         <SideMenuSubcomponent  details={purpose}/>
         </Link>
+        <Link to="/interview" >
+        <SideMenuSubcomponent  details={interview}/>
+        </Link>
+
       </div>
     </div>
   )

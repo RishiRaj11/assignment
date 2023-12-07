@@ -11,7 +11,7 @@ const SideMenuSubcomponent = ({ details }) => {
                     <div style={{ width: "50px", height: "50px", background: "grey",margin:"10px" }}>
                     </div>
                     <div style={{margin:"10px" }} >
-                        <h3 style={{ display: "inline", fontFamily: " Roboto", letterSpacing: "0em" }}>{title}</h3>
+                        <h3 style={{ display: "inline", fontFamily: " Roboto", letterSpacing: "0em",textDecoration: 'none' }}>{title}</h3>
                         <Typography component="p" style={{
                             fontFamily: "Roboto",
                             fontSize: "12px",
@@ -19,6 +19,7 @@ const SideMenuSubcomponent = ({ details }) => {
                             lineLeight: "14px",
                             letterSpacing: "0em",
                             textLlign: "left",
+                            textDecoration: 'none'
                         }} >{content}</Typography>
                     </div>
                 </div>
